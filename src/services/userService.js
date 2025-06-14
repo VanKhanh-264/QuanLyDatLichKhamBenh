@@ -46,6 +46,16 @@ let handleUserLogin = (email, password) => {
     })
 }
 
+let compareUserPassword = () => {
+    return new Promise((resolve, reject) => {
+        try {
+            
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
 let checkUserEmail = (userEmail) => {
     return new Promise(async (resolve, reject) => {
         try {
