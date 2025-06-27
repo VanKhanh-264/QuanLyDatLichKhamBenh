@@ -38,9 +38,6 @@
             <th>firstName</th>
             <th>lastName</th>
             <th>address</th>
-            <th>phoneNumber</th>
-            <th>gender</th>
-            <th>roleId</th>
             <th>Actions</th>
 
         </tr>
@@ -57,15 +54,6 @@
                 </td>
                 <td>
                     <%= dataTable[i].address %>
-                </td>
-                <td>
-                    <%= dataTable[i].phonenumber %>
-                </td>
-                <td>
-                    <%= dataTable[i].gender %>
-                </td>
-                <td>
-                    <%= dataTable[i].roleId %>
                 </td>
                 <td>                    
                     <a href="/edit-crud?id=<%= dataTable[i].id %>" class="btn-edit" type="button">Edit</a>
